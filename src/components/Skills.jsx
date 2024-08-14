@@ -5,6 +5,7 @@ import javascript from "../../src/assets/javascript.png"
 import react from "../../src/assets/react.png"
 import tailwind from "../../src/assets/tailwind.png"
 import node from "../../src/assets/node.png"
+import JKT48 from "../../src/assets/JKT48.png"
 import Typewriter from "typewriter-effect";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -20,13 +21,13 @@ const Skills = ({theme}) => {
 
         <div className="text-center ">
         <AnimationOnScroll initiallyVisible={true} animateIn="animate__tada">
-          <h1 className="border-b-2 border-pink-600 inline text-4xl font-bold">Skillz</h1>
+          <h1 className="border-b-2 border-pink-600 inline text-4xl font-bold">Skills</h1>
           </AnimationOnScroll>
    
           <p className=" mx-auto mt-3 text-xl max-w-[600px] font-mono text-green-500">
                  <Typewriter 
                   options={{
-                 strings: ["These are the Technologies I Have worked with." ],
+                 strings: ["Masih Belajar Ini" ],
                  autoStart: true,
                 loop: true,
                  }}
@@ -82,7 +83,12 @@ const Skills = ({theme}) => {
                </AnimationOnScroll>
                <p className="mt-2">NODE JS</p>  
          </div>
-
+         <div className="m-8 p-12 flex flex-col items-center justify-center shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer">  
+         <AnimationOnScroll initiallyVisible={true} animateIn="animate__tada">
+               <img src={JKT48} alt="Isinya Istri2 doang wkwkwk" className="h-20"></img>
+               </AnimationOnScroll>
+               <p className="mt-2">JKT48</p>  
+         </div>
 
 
          </div>

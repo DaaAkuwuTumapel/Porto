@@ -15,9 +15,9 @@ import Shoaib from '../assets/Shoaib.pdf';
 const Main = ({ theme }) => {
 
   useEffect(() => {
-    toast.info('Welcome! Shoaib Here 😉, CheckOut My New Project In Work Section ✅', {
+    toast.info('Welcome! Sal Here 😉, Cie kepo ya buka web ini ✅', {
       position: "bottom-center",
-      autoClose: 50000,
+      autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -35,7 +35,7 @@ const Main = ({ theme }) => {
       <div className={theme ? ("text-black  font-bold shadow-box-shadow p-5 rounded-2xl text-sm sm:text-3xl ") : ("text-[#ffffff] text-sm sm:text-2xl ")} >
         <p className="text-pink-600 text-xs md:text-xl">Hi, my name is</p>
         <h1 className="text-2xl sm:text-3xl md:text-4xl" >
-          Shoaib Abdul Khadeer
+          Savero Dalta 
         </h1>
         {/* alert component */}
         <ToastContainer limit={1} className="text-sm " />
@@ -44,7 +44,7 @@ const Main = ({ theme }) => {
           : " text-xl text-green-500 sm:text-2xl md:text-4xl font-mono"}>
           <Typewriter
             options={{
-              strings: ["I'm a React JS Developer", "NodeJS,Tailwind", "</> Happy coding !!"],
+              strings: ["."],
               autoStart: true,
               loop: true,
             }}
@@ -53,16 +53,15 @@ const Main = ({ theme }) => {
 
 
         <p className="max-w-[600px] mt-4 text-sm md:text-xl">
-          I’m a full-stack Mern developer specializing in building and occasionally
-          designing exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+          I’m a Students at SMKN 1 Boyolangu. Currently, I’m focused on
+        Developing IOT & UI/UX Design.
         </p>
 
 
         <p className="font-serif text-xl font-bold text-red-600 mt-2 sm:text-2xl md:text-4xl flex items-center">
           <Typewriter
             options={{
-              strings: ["Shoaib AK"],
+              strings: ["Dalta"],
               autoStart: true,
               loop: true,
             }}

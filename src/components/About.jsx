@@ -23,7 +23,7 @@ const About = ({theme}) => {
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <AnimationOnScroll animateIn="animate__fadeInLeftBig">
             <div className='sm:text-right text-4xl '>
-              <p className='text-xl sm:text-2xl md:text-4xl'>Hi. I'm Shoaib, nice to meet you. Please take a look around.</p>
+              <p className='text-xl sm:text-2xl md:text-4xl'>Hi. I'm Sal, nice to meet you. Please take a look around.</p>
             </div>
             </AnimationOnScroll>
             <AnimationOnScroll animateIn="animate__fadeInLeftBig">
@@ -31,9 +31,7 @@ const About = ({theme}) => {
             <AnimationOnScroll animateIn="animate__tada">
                <img src={design} alt='' className='h-13'/>
                </AnimationOnScroll>
-              <p className='leading-relaxed text-sm md:text-xl'>I am passionate about building excellent software that improves
-              the lives of those around me. I am specializing in creating Responsive
-              web applications for individuals and small-businesses,I like to Learn New Technologies . </p>  
+              <p className='leading-relaxed text-sm md:text-xl'>Hello World! This is Savero Dalta currently a Student at SMKN 1 Boyolangu. I have a planning towards the future of me, which to marry one of the JKT48 Member. My backup plan is to marry - Kathrina.</p>  
             </div>
             </AnimationOnScroll>
           </div>

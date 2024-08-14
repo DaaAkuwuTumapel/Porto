@@ -60,7 +60,7 @@ const Navbar = ({theme,lightChange}) => {
             </Link>
 
             <Link to="gaming" spy={true} smooth={true} offset={50} duration={500} activeClass="active"  >
-                      <li className='mr-6  hover:text-pink-600 hover:overline'>Gaming</li>
+                      <li className='mr-6  hover:text-pink-600 hover:overline'>Istri</li>
             </Link>
 
             </ul>  
@@ -92,7 +92,7 @@ const Navbar = ({theme,lightChange}) => {
             </Link>
 
             <Link to="gaming" offset={50} duration={500}   onClick={handlechange}>
-                      <li className='mb-10   hover:text-blue-600 hover:overline'>Gaming</li>
+                      <li className='mb-10   hover:text-blue-600 hover:overline'>Wife</li>
             </Link>
 
 
@@ -116,13 +116,13 @@ const Navbar = ({theme,lightChange}) => {
     
 
        <li className=' w-[160px] h-[60px] flex items-center justify-between bg-blue-500 ml-[-100px] hover:ml-[-1px] duration-[0.6s]' > 
-           <a href='https://in.linkedin.com/in/shoaib-abdul-khadeer-214260227' className='flex justify-between items-center w-full text-gray-300 pr-2 ml-4'> 
+           <a href='https://www.linkedin.com/in/savero-alsal/' className='flex justify-between items-center w-full text-gray-300 pr-2 ml-4'> 
              LinkedIn <FaLinkedin size={45}/> 
               </a> 
         </li>
 
         <li className='w-[160px] h-[60px]  flex items-center justify-between bg-purple-800 ml-[-100px] hover:ml-[-1px] duration-[0.6s]' > 
-           <a href='https://github.com/shoaibabdulkhadeer' className='flex justify-between items-center w-full text-gray-300 pr-2 ml-4'> 
+           <a href='https://github.com/DaaAkuwuTumapel' className='flex justify-between items-center w-full text-gray-300 pr-2 ml-4'> 
              Github <FaGithub size={45}/> 
               </a> 
         </li>
@@ -131,7 +131,7 @@ const Navbar = ({theme,lightChange}) => {
 
      
         <li className='w-[160px] h-[60px]  flex items-center justify-between bg-red-700 ml-[-100px] hover:ml-[-1px] duration-[0.6s]' > 
-           <a href='https://www.youtube.com/c/Zenx777/featured?app=desktop' className='flex justify-between items-center w-full text-gray-300 pr-2 ml-4'> 
+           <a href='https://www.youtube.com/@saverodalta7159' className='flex justify-between items-center w-full text-gray-300 pr-2 ml-4'> 
              Youtube <FaYoutube size={45}/> 
               </a> 
         </li>
