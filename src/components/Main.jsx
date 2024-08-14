@@ -44,7 +44,7 @@ const Main = ({ theme }) => {
           : " text-xl text-green-500 sm:text-2xl md:text-4xl font-mono"}>
           <Typewriter
             options={{
-              strings: ["."],
+              strings: ["Masih Idup👍🏼"],
               autoStart: true,
               loop: true,
             }}

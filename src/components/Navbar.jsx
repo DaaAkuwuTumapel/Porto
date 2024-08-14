@@ -25,7 +25,7 @@ const Navbar = ({theme,lightChange}) => {
 
     <div className= {theme? ( 'p-4 w-full h-30 bg-white font-bold shadow-box-shadow text-black flex justify-between sticky bottom-0 top-0 z-20') : ('p-4 w-full h-30 bg-[#0a192f] text-gray-400 flex justify-between sticky bottom-0 top-0 z-20' ) } >
       <div className='flex items-center'>
-      <h1 className= {theme? 'text-4xl mt-3 text-black font-extrabold font-signature' : 'text-4xl mt-3 text-white font-extrabold font-signature'}> ZEN</h1>
+      <h1 className= {theme? 'text-4xl mt-3 text-black font-extrabold font-signature' : 'text-4xl mt-3 text-white font-extrabold font-signature'}> SAL</h1>
               {theme? <img className='ml-5 cursor-pointer' src='/images/on.png' width={55} alt='/'  onClick={lightChange} /> 
               : <img className='ml-5 cursor-pointer' src='/images/off.png' width={55} alt='/' onClick={lightChange}  /> }  
 
