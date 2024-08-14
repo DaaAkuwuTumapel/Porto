@@ -7,7 +7,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import goku from "../../src/assets/goku.gif"
-import Shoaib from '../assets/Shoaib.pdf';
+import DaltaCV from '../assets/DaltaCV.jpg';
 
 
 
@@ -72,7 +72,7 @@ const Main = ({ theme }) => {
 
 
         {/* <a href="/assets/hello.txt" download="my_file.txt"> */}
-        <a href={Shoaib} download>
+        <a href={DaltaCV} download>
           <button
             class="group bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border
          border-blue-500 hover:border-transparent rounded mt-3 flex items-center" >

@@ -17,7 +17,7 @@ const Work = ({theme}) => {
             <p className=" mx-auto mt-3 text-xl max-w-[600px] font-mono text-green-500">
                  <Typewriter 
                   options={{
-                 strings: ["Next Update Fitur" ],
+                 strings: ["Beberapa Belum Saya Push🙏" ],
                  autoStart: true,
                 loop: true,
                  }}
