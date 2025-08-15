@@ -31,7 +31,7 @@ const About = ({theme}) => {
             <AnimationOnScroll animateIn="animate__tada">
                <img src={design} alt='' className='h-13'/>
                </AnimationOnScroll>
-              <p className='leading-relaxed text-sm md:text-xl'>Hello World! This is Savero Dalta currently a Student at SMKN 1 Boyolangu. I have a planning towards the future of me, which to marry one of the JKT48 Member. My backup plan is to marry - Kathrina.</p>  
+              <p className='leading-relaxed text-sm md:text-xl'>Hello World! This is Savero Dalta currently a Student at Airlangga University. I have a planning towards the future of me, which to marry one of the JKT48 Member. My backup plan is to marry - Kathrina.</p>  
             </div>
             </AnimationOnScroll>
           </div>

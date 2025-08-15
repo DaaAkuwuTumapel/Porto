@@ -12,7 +12,7 @@ const Navbar = ({theme,lightChange}) => {
 
     const [nav,setNav] = useState(true)
 
-
+  
     function handlechange(){
         setNav(prev => !prev)
     }
@@ -60,7 +60,7 @@ const Navbar = ({theme,lightChange}) => {
             </Link>
 
             <Link to="gaming" spy={true} smooth={true} offset={50} duration={500} activeClass="active"  >
-                      <li className='mr-6  hover:text-pink-600 hover:overline'>Istri</li>
+                      <li className='mr-6  hover:text-pink-600 hover:overline'>Istri </li>
             </Link>
 
             </ul>  
