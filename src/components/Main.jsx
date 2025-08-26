@@ -53,8 +53,7 @@ const Main = ({ theme }) => {
 
 
         <p className="max-w-[600px] mt-4 text-sm md:text-xl">
-          I’m a Students at SMKN 1 Boyolangu. Currently, I’m focused on
-        Developing IOT & UI/UX Design.
+          I’m a Students at Airlangga University. Majoring the Taxation.
         </p>
 
 
