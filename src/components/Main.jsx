@@ -53,7 +53,7 @@ const Main = ({ theme }) => {
 
 
         <p className="max-w-[600px] mt-4 text-sm md:text-xl">
-          I’m a Students at Airlangga University. Majoring the Taxation.
+          I’m a Students at UNAIRRRRR. Majoring the Taxation.
         </p>
 
 
